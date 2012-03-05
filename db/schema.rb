@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(:version => 20120305092634) do
   create_table "cars", :force => true do |t|
     t.string   "make"
     t.string   "model"
-    t.string   "body"
+    t.string   "body_type"
     t.integer  "year"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
